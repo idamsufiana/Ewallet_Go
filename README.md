@@ -25,5 +25,18 @@ VALUES ('22222222-2222-2222-2222-222222222222', '11111111-1111-1111-1111-1111111
 
 go run cmd/main.go
 
+Test 
+
+postman request 'http://localhost:8080/balance/11111111-1111-1111-1111-111111111111'
+
+postman request POST 'http://localhost:8080/withdraw' \
+  --header 'Content-Type: application/json' \
+  --body '{
+  "user_id": "11111111-1111-1111-1111-111111111111",
+  "amount": 50000
+}'
+
+
+
 
 
