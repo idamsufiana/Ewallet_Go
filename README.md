@@ -54,8 +54,11 @@ go run cmd/main.go
 Server jalan di:
 
 http://localhost:8080
+
 📡 API Usage
+
 🔍 Check Balance
+
 GET /balance/{user_id}
 
 Example:
