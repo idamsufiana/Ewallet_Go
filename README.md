@@ -34,6 +34,7 @@ CREATE TABLE wallets (
     user_id UUID NOT NULL REFERENCES users(id),
     balance NUMERIC(18,2) NOT NULL DEFAULT 0
 );
+
 2. Insert Sample Data
 INSERT INTO users (id, name)
 VALUES (
